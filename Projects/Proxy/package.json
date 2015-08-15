@@ -26,6 +26,7 @@
     "gulp-open": "^1.0.0",
     "gulp-prettify": "^0.3.0",
     "jshint-stylish": "^2.0.1",
+    "memory-cache": "^0.1.4",
     "request": "^2.60.0"
   }
 }

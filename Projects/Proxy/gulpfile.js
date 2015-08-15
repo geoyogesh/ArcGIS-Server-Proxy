@@ -24,7 +24,8 @@ var browser = os.platform() === 'linux' ? 'google-chrome' : (
 
 gulp.task('launchapp', function() {
   var options = {
-    uri: 'localhost:1337',
+    uri: 'localhost:1337/arcgis/rest/services?f=json',
+    //uri:'localhost:1337/ArcGIS/rest/services/Demographics/ESRI_Census_USA/MapServer/export?dpi=96&transparent=true&format=png8&bbox=-207.682974279982%2C-9.459977307692068%2C-37.1804225764967%2C98.74745467494688&bboxSR=4269&imageSR=4269&size=843%2C535&f=image',
     app: browser
   };
   gulp.src('')
@@ -61,7 +62,7 @@ gulp.task('daemon', function() {
     .on('start', ['watch'])
     .on('change', ['watch'])
     .on('restart', function() {
-      gulp.src(assets).pipe(notify('Reloading page, please wait...'));
+      /*gulp.src(assets).pipe(notify('Reloading page, please wait...'));*/
       console.log('restarted!');
     });
 });
