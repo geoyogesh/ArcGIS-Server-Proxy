@@ -7,12 +7,11 @@ var gulp = require('gulp'),
     jshint = require('gulp-jshint'),
     open = require('gulp-open'),
     os = require('os');
-
-var assets = 'app/**/*.js';
-
+var jscs = require('gulp-jscs');
 var notify = require('gulp-notify'),
     livereload = require('gulp-livereload');
- 
+
+var assets = 'app/**/*.js'; 
 
 
 gulp.task('default',['demon','launchapp'], function() {
@@ -40,6 +39,12 @@ gulp.task('lint', function() {
 });
 gulp.task('watch', function () {
   gulp.watch(assets, ['lint']);
+});
+
+
+gulp.task('check',['lint'], function () {
+    return gulp.src(assets)
+        .pipe(jscs());
 });
 
 gulp.task('demon', function () {

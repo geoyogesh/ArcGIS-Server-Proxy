@@ -5,3 +5,5 @@ npm install jshint-stylish --save-dev
 npm install --save-dev gulp-nodemon
 npm install --save-dev gulp-open
 npm install --save-dev gulp gulp-livereload gulp-notify
+npm install --save-dev gulp-jscs
+npm install --save-dev gulp-prettify
