@@ -17,12 +17,14 @@
   },
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-js-prettify": "^0.1.0",
     "gulp-jscs": "^2.0.0",
     "gulp-jshint": "^1.11.2",
     "gulp-livereload": "^3.8.0",
     "gulp-nodemon": "^2.0.3",
     "gulp-notify": "^2.2.0",
     "gulp-open": "^1.0.0",
+    "gulp-prettify": "^0.3.0",
     "jshint-stylish": "^2.0.1",
     "request": "^2.60.0"
   }

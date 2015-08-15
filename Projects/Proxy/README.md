@@ -7,3 +7,4 @@ npm install --save-dev gulp-open
 npm install --save-dev gulp gulp-livereload gulp-notify
 npm install --save-dev gulp-jscs
 npm install --save-dev gulp-prettify
+npm install --save-dev gulp-js-prettify
