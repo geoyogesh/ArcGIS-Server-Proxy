@@ -25,8 +25,10 @@
     "gulp-notify": "^2.2.0",
     "gulp-open": "^1.0.0",
     "gulp-prettify": "^0.3.0",
+    "ioredis": "^1.7.4",
     "jshint-stylish": "^2.0.1",
     "memory-cache": "^0.1.4",
+    "redis": "^0.12.1",
     "request": "^2.60.0"
   }
 }

@@ -12,3 +12,4 @@ npm install --save-dev gulp-js-prettify
 
 https://www.npmjs.com/package/memory-cache
 npm install --save-dev memory-cache
+npm install --save-dev ioredis

@@ -2,7 +2,7 @@ var http = require('http');
 var request = require('request');
 var proxyResponse = require('./lib/proxyResponse.js');
 var config = require('./config/config.js');
-var cache = require('./lib/Cache.js').cacheObject('in_memory');
+var cache = require('./lib/Cache.js').cacheObject('redis');
 var utils = require('./lib/utils.js');
 var port = process.env.port || 1337;
 /*
