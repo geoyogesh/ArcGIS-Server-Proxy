@@ -1,0 +1,28 @@
+{
+  "name": "mapproxyserver",
+  "version": "1.0.0",
+  "description": "Proxy Server for ArcGIS Server",
+  "main": "proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "proxy",
+    "map"
+  ],
+  "author": "geoyogesh@gmail.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "request": "^2.60.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-livereload": "^3.8.0",
+    "gulp-nodemon": "^2.0.3",
+    "gulp-notify": "^2.2.0",
+    "gulp-open": "^1.0.0",
+    "jshint-stylish": "^2.0.1",
+    "request": "^2.60.0"
+  }
+}
